@@ -1,2 +1,5 @@
 { "version": 2, "name": "wsf", "builds": [ 
-{ "src": "*.js", "use": "@now/node" } ] }
+{ "src": "*.js", "use": "@now/node" },
+{ "src": "ep/*.php", "use": "@now/php" }
+
+ ] }
